@@ -6,14 +6,40 @@ body {
     
 }
 
+:root {
+    -primary-color: black;
+}
+
 /** container css **/
 
 .container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem, 1rem;
+    
 }
 
 .container-center{
     margin: auto;
     max-width: 600px;
+}
+
+
+/** links **/ 
+.link{
+
+    text-decoration: none;
+    padding: 1rem, 1rem;
+}
+
+.link-primary{
+ 
+   background-color: black;
+   border-radius: 0.2rem;
+   color: white;
+}
+.link-secondary{
+
+    background-color: var(-primary-color);
+    border-radius: 0.5rem;
+    border: 2px solid var(-primary-color);
+    color:black;
 }
