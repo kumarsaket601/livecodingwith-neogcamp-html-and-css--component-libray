@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;600&display=swap');
 
 :root {
-    --primary-color: #C69DD2;
+    --primary-color: #736CED;
     --dark-gray: #BDBBB0;
-    --off-white: #778472;
+    --off-white: #F1F2EE;
 
 }
 
 body {
+
     font-family: 'Montserrat',
         sans-serif;
-     margin: opx
-
+    
+    margin: 0px;
 }
 
 hr {
@@ -38,6 +39,7 @@ hr {
 
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-top: 1rem;
 }
 
 .link-primary {
@@ -139,4 +141,8 @@ hr {
 .footer ul{
     padding-inline-start: opx;
 }
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
