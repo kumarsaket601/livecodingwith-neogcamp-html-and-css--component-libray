@@ -44,7 +44,7 @@ hr {
 
 .link-primary {
 
-    background-color: black;
+    background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
 }
@@ -75,6 +75,7 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 3rem;
+    
 }
 
 .navigation .nav-brand{
